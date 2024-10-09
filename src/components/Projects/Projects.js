@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import wella from "../../assets/Projects/wella-edu.png";
 import nasa from "../../assets/Projects/nasa.png";
+import soutag from "../../assets/Projects/soutag.png";
 
 function Projects() {
   return (
@@ -22,19 +23,18 @@ function Projects() {
               imgPath={wella}
               isBlog={false}
               title="Wella Education"
-              description="I led the development of a white-label educational platform using React, Styled Components, TypeScript, and Ruby on Rails during my time at EVOB. This platform, the largest of its kind in Brazil's beauty market, serves as a flexible, scalable solution for delivering educational content to a wide range of users. "
+              description="I led the development of a white-label educational platform using React, Styled Components, TypeScript, and Ruby on Rails during my time at EVOB. This platform, the largest of its kind in Brazil's beauty market, serves as a flexible, scalable solution for delivering educational content to a wide range of users."
               demoLink="https://wellaedu.com.br/en/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"editor"}
+              imgPath={soutag}
               isBlog={false}
               title="SouTag"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              description="My most recent project, from initial commit to deployment, was a complete overhaul of a Kotlin application into React Native for SouTag. The goal was to empower gig economy workers in Brazil by improving user experience and app performance. The project was built using React Native, Styled Components for styling, and Ruby on Rails for the backend API."
+              demoLink="https://play.google.com/store/apps/details?id=br.com.tagplus&hl=pt_BR&pli=1"
             />
           </Col>
 
@@ -65,9 +65,9 @@ function Projects() {
               imgPath={"suicide"}
               isBlog={false}
               title="Up Movies"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Simple personal project to fetch the latest releases from the theaters ."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             />
           </Col>
 
@@ -76,10 +76,9 @@ function Projects() {
               imgPath={"emotion"}
               isBlog={false}
               title="Namora Comigo"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="blablablablabla."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
         </Row>
