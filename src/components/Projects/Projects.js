@@ -11,7 +11,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Work <strong className="purple">Highlights </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -21,8 +21,8 @@ function Projects() {
             <ProjectCard
               imgPath={wella}
               isBlog={false}
-              title="WellaEdu"
-              description="White label educational platform built with React, Styled Components, Typescript and Ruby on Rails. This project was led by me during my years working at EVOB and is the largest educational platform for the beauty market in Brazil. "
+              title="Wella Education"
+              description="I led the development of a white-label educational platform using React, Styled Components, TypeScript, and Ruby on Rails during my time at EVOB. This platform, the largest of its kind in Brazil's beauty market, serves as a flexible, scalable solution for delivering educational content to a wide range of users. "
               demoLink="https://wellaedu.com.br/en/"
             />
           </Col>
@@ -40,20 +40,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nasa}
-              isBlog={false}
-              title="NASA Space Apps Hackathon"
-              description="Me and my team developed a project to filter and compact seismologic with Python, Matplotlib, Numpy and Pandas. We earned second place and got nominated to the global challenge."
-              ghLink="https://github.com/brenozuko/pulse_seekers_submission"
-              demoLink="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/pulseseekers/?tab=project"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={"leaf"}
               isBlog={false}
-              title="Plant AI"
+              title="Jebbit Builder"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
@@ -62,9 +51,20 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={nasa}
+              isBlog={false}
+              title="NASA Space Apps Hackathon"
+              description="My team and I developed a project utilizing Python, Matplotlib, NumPy, and Pandas to filter and compact seismological data efficiently. Our solution earned us second place in the competition and a nomination for the global challenge, showcasing our technical skills and innovative approach to data processing."
+              ghLink="https://github.com/brenozuko/pulse_seekers_submission"
+              demoLink="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/pulseseekers/?tab=project"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={"suicide"}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Up Movies"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
@@ -75,7 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={"emotion"}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="Namora Comigo"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
