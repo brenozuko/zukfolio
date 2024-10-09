@@ -23,12 +23,16 @@ function Home2() {
               <br />
               <br />
               I'm deeply passionate about
-              <b className="purple"> Computer Science, AI and Data Science.</b>
+              <b className="purple">
+                {" "}
+                Computer Science, AI and Data Science.
+              </b>{" "}
+              and I love creating beautiful UI's and products that scale.
               <br />
               <br />
-              Also I love creating beautiful UI's and products that scale. My
-              main skills are: React, React Native, Cypress, Jest, Rspec, Ruby
-              on Rails, Next.js, Typescript, Python, Docker, PostgreSQL, AWS.
+              My main skills are: React, React Native, Cypress, Jest, Rspec,
+              Ruby on Rails, Next.js, Typescript, Python, Docker, PostgreSQL,
+              AWS.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
