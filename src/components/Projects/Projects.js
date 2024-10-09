@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import wella from "../../assets/Projects/wella-edu.png";
-import nasa from "../../assets/Projects/nasa.png";
-import soutag from "../../assets/Projects/soutag.png";
+import wella from "../../assets/projects/wella-edu.png";
+import nasa from "../../assets/projects/nasa.png";
+import soutag from "../../assets/projects/soutag.png";
 
 function Projects() {
   return (
