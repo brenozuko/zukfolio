@@ -3,7 +3,7 @@
   <a href="https://www.brenozuko.tech/" target="_blank">brenozuko.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./images/readme-img.png" />
+  <img alt="Demo" src="./images/readme-image.png" />
 </div>
 
 <br/>
