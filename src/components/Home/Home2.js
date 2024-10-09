@@ -21,17 +21,19 @@ function Home2() {
                 <b className="purple">Ruby on Rails.</b>
               </i>
               <br />
+              <br />I have a Bachelor's degree by{" "}
+              <b className="purple">Fatec, Ribeirão Preto</b> and I'm based in
+              Brazil.
               <br />
-              I'm deeply passionate about
-              <b className="purple">
-                {" "}
-                Computer Science, AI and Data Science.
-              </b>{" "}
-              and I love creating beautiful UI's and products that scale.
+              <br />
+              Deeply passionate about
+              <b className="purple"> Computer Science, AI </b> and{" "}
+              <b className="purple">Data Science.</b> I also love creating
+              beautiful UI's and products that scale.
               <br />
               <br />
               My main skills are: React, React Native, Cypress, Jest, Rspec,
-              Ruby on Rails, Next.js, Typescript, Python, Docker, PostgreSQL,
+              Ruby on Rails, Next.js, Typescript, Python, Docker, PostgreSQL and
               AWS.
             </p>
           </Col>

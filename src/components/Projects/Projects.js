@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import wella from "../../assets/projects/wella-edu.png";
 import nasa from "../../assets/projects/nasa.png";
 import soutag from "../../assets/projects/soutag.png";
+import movieUp from "../../assets/projects/movie-up.png";
+import namoraComigo from "../../assets/projects/namora-comigo.png";
+import jebbit from "../../assets/projects/jebbit.png";
 
 function Projects() {
   return (
@@ -40,12 +43,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"leaf"}
+              imgPath={jebbit}
               isBlog={false}
               title="Jebbit Builder"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="Collaborated on the development of a no-code quiz builder while working at Jebbit, enabling users to capture zero-party data. The project, built with Ember.js and JavaScript, delivers a seamless and interactive quiz-building experience. My primary contribution involved revamping the layout system, significantly enhancing the overall user experience and interface."
+              demoLink="https://www.jebbit.com/"
             />
           </Col>
 
@@ -62,23 +64,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"suicide"}
+              imgPath={movieUp}
               isBlog={false}
-              title="Up Movies"
-              description="Simple personal project to fetch the latest releases from the theaters ."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              title="Movie UP"
+              description="Simple personal project to fetch the latest releases from movie theaters. Built with React and Next.js using the 'The Movie Database' (TMDB) API."
+              ghLink="https://github.com/brenozuko/upcoming-movies-q2"
+              demoLink="http://upcoming-movies-q2.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"emotion"}
+              imgPath={namoraComigo}
               isBlog={false}
               title="Namora Comigo"
-              description="blablablablabla."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="A fun website built with React, Next.js and Firebase made for my special one to ask her to be my girlfriend. The catch is, she can't click no, because the button slips away!"
+              ghLink="https://github.com/brenozuko/namora-comigo"
+              demoLink="https://coelho-zukowski.vercel.app/"
             />
           </Col>
         </Row>
