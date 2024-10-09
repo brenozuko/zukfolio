@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../assets/Breno Zukowski - Resume.pdf";
+import pdf from "../../assets/resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
