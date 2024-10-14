@@ -8,6 +8,7 @@ import soutag from "../../assets/projects/soutag.png";
 import movieUp from "../../assets/projects/movie-up.png";
 import namoraComigo from "../../assets/projects/namora-comigo.png";
 import jebbit from "../../assets/projects/jebbit.png";
+import yolo from "../../assets/projects/yolo.png";
 
 function Projects() {
   return (
@@ -59,6 +60,17 @@ function Projects() {
               description="My team and I developed a project utilizing Python, Matplotlib, NumPy, and Pandas to filter and compact seismological data efficiently. Our solution earned us second place in the competition and a nomination for the global challenge, showcasing our technical skills and innovative approach to data processing."
               ghLink="https://github.com/brenozuko/pulse_seekers_submission"
               demoLink="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/pulseseekers/?tab=project"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={yolo}
+              isBlog={false}
+              title="Tumor Cell Classification in Histopathological Images Using Deep Learning"
+              description="As part of my graduation project, I developed a deep learning model using YOLOv5 to assist medical professionals in detecting malignant tumors in breast histopathology images. This project achieved an accuracy of 81%, showcasing the potential of AI to enhance the efficiency and precision of cancer diagnosis. It was awarded the Best Science Paper of Fatec Ribeirão Preto in 2022."
+              ghLink="https://github.com/brenozuko/yolov5_breast_cancer"
+              demoLink="https://github.com/brenozuko/artigo_worktec/blob/master/Worktec%20-%20Breno%20Zukowski.pdf"
             />
           </Col>
 
